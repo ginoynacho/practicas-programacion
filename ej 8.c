@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int narreglos, cont, num_k;
-void obtener_mayor(int numeros[], int narreglos, int num_k);
+void obtener_menor(int numeros[], int narreglos, int num_k);
 int main()
 {
         printf("Numeros del arreglo \n");
@@ -13,9 +13,9 @@ int main()
         }
         printf("Que numero quiere usar para evaluar: ");
         scanf("%d", &num_k);
-        obtener_mayor(num, narreglos, num_k);
+        obtener_menor(num, narreglos, num_k);
 }
-void obtener_mayor(int num[], int narreglos, int num_k){
+void obtener_menor(int num[], int narreglos, int num_k){
     printf("Los numeros menores son: ");
     for(cont = 0; cont<narreglos; cont++){
       if(num[cont] < num_k){
