@@ -4,7 +4,7 @@
 float PorcentajePares(int array[], int narreglos);
 int main()
 {
-      int narreglos;
+      int narreglos, cont;
       printf("Numeros del arreglo \n");
       scanf("%d", &narreglos);
       int num[narreglos];
@@ -22,5 +22,5 @@ float PorcentajePares(int array[], int narreglos){
             cont_pares = cont_pares+1;
         }
     }
-    return (cont_pares/narreglos)*100;
+    return ((float)cont_pares/(float)narreglos)*100;
 }
