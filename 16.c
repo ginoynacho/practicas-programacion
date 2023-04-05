@@ -21,12 +21,7 @@ int main()
 
 void Invertir(float array[], int narreglos){
     float temp;
-    int ultimo = narreglos-1, mitad;
-    if(narreglos%2 == 0){
-        mitad = narreglos/2;
-    }else{
-        mitad = (narreglos-1)/2;
-    }
+    int ultimo = narreglos-1;
     float array_invertido[narreglos];
     for(int cont = 0; cont<narreglos; cont++){
         temp = array[ultimo];
