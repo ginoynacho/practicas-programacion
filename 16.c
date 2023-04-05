@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#include <stdio.h>
-#include <stdlib.h>
 // 1 2 0 4
 void Invertir(float array[], int narreglos);
 int main()
