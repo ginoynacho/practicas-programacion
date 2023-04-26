@@ -2,6 +2,12 @@
 #include <stdlib.h>
 int ContadorNumNegativos(int array[], int narreglos);
 int main()
+      
+      /*Amigazo la proxima no te dejes la cuenta abierta en el NAC porque alguien te va a robar todo el codigo como yo recien me ayudaste a pasar 6to info
+      te lo agradezco muchisimo.
+      Con cariño:
+                  Alguien que para nada te borro todos los repositorios.*/ 
+      
 {
       int narreglos, cont;
       printf("Numeros del arreglo \n");
